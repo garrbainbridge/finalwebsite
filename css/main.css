@@ -1,0 +1,96 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+/*=======================================
+
+              Navigation
+
+=========================================*/
+
+header{
+  background: #333;
+  position: fixed;
+  left: 0;
+  right: 0;
+  padding: 10px 0
+}
+
+header nav ul li{
+  display: inline;
+}
+
+header nav a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 20px;
+  transition: .3s
+}
+
+a:hover {
+  color: purple;
+  transition: .3s;
+}
+
+/*=======================================
+
+              Header Image
+
+=========================================*/
+
+.top-section {
+  background-image: url("../images/header.jpeg");
+  background-attachment: fixed;
+  background-repeat: repeat;
+  text-align: right;
+  padding: 100px 5px;
+}
+
+.top-section img {
+  width: 150px;
+  opacity: 90%;
+}
+
+/*=======================================
+
+          Personal Gallery
+
+=========================================*/
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.personal {
+  display: inline-block;
+}
+
+.personal img {
+  width:270px;
+  opacity: 50%;
+  transition: .3s;
+  padding: 20px 55px;
+  box-shadow: purple 3px 5px 13px;
+  border-radius: 25px;
+}
+
+img:hover{
+  opacity: 100%;
+  transition:.5s;
+}
+
+.left {
+    transform: rotate(-90deg);
+    float: left;
+    font-size: 60px;
+}
+
+.right {
+    transform: rotate(90deg);
+    float: right;
+    font-size: 60px;
+}
