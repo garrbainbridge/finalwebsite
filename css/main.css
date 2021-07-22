@@ -63,6 +63,7 @@ a:hover {
 h1 {
   font-size: 40px;
   text-align: center;
+  padding: 15px;
 }
 
 .personal {
@@ -76,21 +77,29 @@ h1 {
   padding: 20px 55px;
   box-shadow: purple 3px 5px 13px;
   border-radius: 25px;
+  margin: 0px 58px;
 }
 
 img:hover{
   opacity: 100%;
+  width: 450px;
+  padding: 0px;
+  margin: 0px;
   transition:.5s;
 }
 
 .left {
     transform: rotate(-90deg);
-    float: left;
+    position: fixed;
     font-size: 60px;
+    opacity: 50%;
 }
 
 .right {
     transform: rotate(90deg);
-    float: right;
+    position: fixed;
     font-size: 60px;
+    right: 0px;
+    bottom: 182px;
+    opacity: 50%;
 }
