@@ -415,6 +415,10 @@ form {
   display: block;
 }
 
+.label_input_wrap::selection{
+  background: rgba(176,125,177);
+}
+
 label {
   font-weight: bold;
 }
@@ -436,9 +440,17 @@ input {
     border-radius: 5px;
 }
 
+input:focus{
+  background: rgba(176,125,177);
+}
+
 textarea {
   padding: 5px;
   border-radius: 5px;
+}
+
+textarea:focus{
+  background:rgba(176,125,177);
 }
 
 .container{
@@ -451,6 +463,15 @@ textarea {
     font-size: 25px;
     padding: 20px 10px 10px 5px;
     text-align: center;
+}
+
+.container p::first-letter{
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.container p::first-line{
+  text-decoration: underline;
 }
 
 .container p {

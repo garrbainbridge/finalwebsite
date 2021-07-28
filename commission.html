@@ -93,24 +93,25 @@
                   </ul>
                 </div>
             </section>
+<!--Commission Form-->
             <div class="container">
               <h1>Commmission Me</h1>
-              <p>Please fill out the form with any applicable information. Also attach any file references.</p>
-              <form id="test_form" name="test_form" method="" action="form.php" onsubmit="return validateForm(this)">
+              <p>Please fill out the form with any applicable information. </br>Also attach any file references.</p>
+              <form id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
 
                 <div class="name input-section">
                   <label for="name" class="label_input_wrap">Name: </label>
-                  <input type="text" name="name" id="name" placeholder="Baloney" />
+                  <input type="text" name="req_name" id="name" placeholder="Baloney" />
                 </div>
 
                 <div class="email input-section">
                   <label for="email" class="label_input_wrap">Email: </label>
-                  <input type="email" name="email" id="email" placeholder="baloney@example.com" />
+                  <input type="email" name="req_email" id="email" placeholder="baloney@example.com" />
                 </div>
 
                 <div class="Information input-section">
                   <label for="information" class="label_input_wrap">Information: </label>
-                  <textarea name="information" id="information" cols="55" rows="5"
+                  <textarea name="req_information" id="information" cols="55" rows="5"
                   placeholder="Information about commission goes here"></textarea>
                 </div>
 
@@ -125,6 +126,7 @@
               </form>
             </div>
       </main>
+<!--Footer-->
       <footer>
         <div class="socialmedia">
           <div class="icon">
@@ -134,7 +136,7 @@
             <a href="https://www.redbubble.com/people/baloneydraws/shop" target="_blank"><img src="images/rb .png" alt="RedBubble"></a>
           </div>
           <div class="icon">
-            <a href="https://youtube.com/channel/UC0iPP2fiOJ7101Lj0SQxcJA" target="_blank"> <img src="images/Yt .png" alt="Instagram"></a>
+            <a href="https://youtube.com/channel/UC0iPP2fiOJ7101Lj0SQxcJA" target="_blank"> <img src="images/Yt .png" alt="Youtube"></a>
           </div>
         </div>
       </footer>
