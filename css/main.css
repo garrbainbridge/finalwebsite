@@ -525,3 +525,16 @@ textarea {
   border-radius: 10px;
   transition:.3s;
 }
+
+/*=====================================
+
+              PHP
+
+======================================*/
+.default {
+    text-align: center;
+    margin: 20px;
+    background: gray;
+    padding: 15px;
+    border-radius: 5px;
+  }
