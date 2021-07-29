@@ -156,6 +156,12 @@ a:hover {
   margin: 3px;
 }
 
+
+span.lb-caption {
+    font-size: 20px !important;
+    font-family: monospace;
+}
+
 /*=======================================
 
           Pokearmor Gallery

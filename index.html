@@ -10,7 +10,12 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-
+<!--Scripts-->
+<script src="scripts/scripts.js" type="text/javascript"></script>
+<!--Lightbox-->
+<link href="lightbox/src/css/lightbox.css" rel="stylesheet" />
+<!--JQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
 
     <body>
@@ -48,52 +53,51 @@
               <p>2012</p>
             </div>
               <div class="personal">
-                <img src="images/rainbow-monkey-new.jpeg" alt="Rainbow Monkey 2021" title="Rainbow Monkey 2021" />
+                <a href="images/rainbow-monkey-new.jpeg" data-lightbox="New-Old" data-title="Rainbow Monkey 2021"><img src="images/rainbow-monkey-new.jpeg" alt="Rainbow Monkey 2021" title="Rainbow Monkey 2021" /></a>
               </div>
 
               <div class="personal">
-                <img src="images/rainbow-monkey-old.jpeg" alt="Rainbow Monkey 2012" title="Rainbow Monkey 2012" />
+                <a href="images/rainbow-monkey-old.jpeg" data-lightbox="New-Old" data-title="Rainbow Monkey 2012"><img src="images/rainbow-monkey-old.jpeg" alt="Rainbow Monkey 2012" title="Rainbow Monkey 2012" /></a>
               </div>
 
             <h1>Fishbowl</h1>
               <div class="personal">
-                <img src="images/fishbowl-new.jpeg" alt="Fishbowl 2021" title="Fishbowl 2021" />
+                <a href="images/fishbowl-new.jpeg" data-lightbox="New-Old" data-title="Fishbowl 2021"><img src="images/fishbowl-new.jpeg" alt="Fishbowl 2021" title="Fishbowl 2021" /></a>
               </div>
 
               <div class="personal">
-                <img src="images/fishbowl-old.jpeg" alt="Fishbowl 2012" title="Fishbowl 2012" />
+                <a href="images/fishbowl-old.jpeg" data-lightbox="New-Old" data-title="Fishbowl 2012"><img src="images/fishbowl-old.jpeg" alt="Fishbowl 2012" title="Fishbowl 2012" /></a>
               </div>
 
             <h1>Popsicle</h1>
               <div class="personal">
-                <img src="images/popsicle-new.jpeg" alt="Popsicle 2021" title="Popsicle 2021" />
+                <a href="images/popsicle-new.jpeg" data-lightbox="New-Old" data-title="Popsicle 2021"><img src="images/popsicle-new.jpeg" alt="Popsicle 2021" title="Popsicle 2021" /></a>
               </div>
 
               <div class="personal">
-                <img src="images/Popsicle-old.jpeg" alt="Popsicle 2012" title="Popsicle 2012" />
+                <a href="images/popsicle-old.jpeg" data-lightbox="New-Old" data-title="Popsicle 2012"><img src="images/Popsicle-old.jpeg" alt="Popsicle 2012" title="Popsicle 2012" /></a>
               </div>
             </div>
           </section>
 <!--Random Work-->
           <section class="random-work">
             <div class="personal" >
-              <img src="images/goat.jpg" alt="Goat Head" title="Goat Head" />
+              <a href="images/goat.jpg" data-lightbox="Random" data-title="Goat Head"><img src="images/goat.jpg" alt="Goat Head" title="Goat Head" /></a>
             </div>
 
             <div class="personal" id="horizontal">
-              <img src="images/hyena.jpg" alt="Hyena" title="Hyena" />
+              <a href="images/hyena.jpg" data-lightbox="Random" data-title="Hyena"><img src="images/hyena.jpg" alt="Hyena" title="Hyena" /></a>
             </div>
 
             <div class="personal">
-              <img src="images/skull.jpg" alt="Skull" title="Skull" />
-            </div>
+              <a href="images/skull.jpg" data-lightbox="Random" data-title="Space Skull"><img src="images/skull.jpg" alt="Skull" title="Skull" /></a>
 
             <div class="personal" id="horizontal">
-              <img src="images/trainer.jpg" alt="Ghost Gym Leader" title="Ghost Gym Leader" />
+              <a href="images/trainer.jpg" data-lightbox="Random" data-title="Pokemon Gym Leader Baloney"><img src="images/trainer.jpg" alt="Ghost Gym Leader" title="Ghost Gym Leader" /></a>
             </div>
 
             <div class="personal">
-              <img src="images/flowergirl.jpg" alt="flowergirl" title="Flower Girl" />
+              <a href="images/flowergirl.jpg" data-lightbox="Random" data-title="Flowergirl"><img src="images/flowergirl.jpg" alt="flowergirl" title="Flower Girl" /></a>
             </div>
 
           </section>
@@ -111,5 +115,6 @@
           </div>
         </div>
       </footer>
+      <script src="lightbox/src/js/lightbox.js"></script>
     </body>
   </html>
