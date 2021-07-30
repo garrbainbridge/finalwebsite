@@ -67,6 +67,19 @@
     border-radius: 10px;
     transition:.3s;
   }
+  .default h1{
+    font-family: monospace;
+    font-size: 25px
+  }
+
+  .default p{
+    font-family: Montserrat;
+    font-size: 15px;
+  }
+
+  .default{
+    text-align: center;
+  }
 </style>
 <body>
 <!--navigation-->
@@ -89,16 +102,5 @@
 
 <!--footer-->
   <footer>
-    <div class="socialmedia">
-      <div class="icon">
-        <a href="https://instagram.com/baloney_draws" target="_blank"><img src="../images/insta.png" alt="Instagram"></a>
-      </div>
-      <div class="icon">
-      <a href="https://www.redbubble.com/people/baloneydraws/shop" target="_blank"><img src="../images/rb.png" alt="RedBubble"></a>
-      </div>
-      <div class="icon">
-        <a href="https://youtube.com/channel/UC0iPP2fiOJ7101Lj0SQxcJA" target="_blank"> <img src="../images/yt.png" alt="youtube"></a>
-      </div>
-    </div>
   </footer>
 </body>

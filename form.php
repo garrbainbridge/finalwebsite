@@ -7,11 +7,11 @@ require('form/form.class.php');
 $form = new Form();
 $form->processForm(
 
-	'garrettjbainbridge.com' // Put you mail domain here
+	'gmail.com' // Put you mail domain here
 	,
 	'Baloney' // Put your site name / form name here
 	,
-	'baloneydraw@gmail.com' // Where will the form notification be sent?
+	'baloneydraws@gmail.com' // Where will the form notification be sent?
 	,
 	'noreply@garrettjbainbridge.com' // This what the form FROM: address wil be, if the form submissions doesn't contain an email field
 
