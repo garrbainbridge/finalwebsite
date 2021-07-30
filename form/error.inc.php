@@ -69,7 +69,9 @@
   }
   .default h1{
     font-family: monospace;
-    font-size: 25px
+    font-size: 25px;
+    margin: 50px 20px 20px;
+}
   }
 
   .default p{
@@ -79,6 +81,14 @@
 
   .default{
     text-align: center;
+    margin: 50px;
+    padding: 5px;
+  }
+
+  footer {
+    background: #333;
+    margin: 0px;
+    padding: 30px;
   }
 </style>
 <body>
