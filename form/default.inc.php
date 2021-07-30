@@ -81,11 +81,6 @@
       </nav>
     </header>
   <main>
-  <!--top banner-->
-      <section class="top-section">
-          <img src="../images/logo-white.png" alt="Baloney" title="Baloney">
-      </section>
-
     <div class="default">
       <h1>Sorry something went wrong with your submission.</h1>
       <p>Please try again</p>
@@ -96,13 +91,13 @@
   <footer>
     <div class="socialmedia">
       <div class="icon">
-        <a href="https://instagram.com/baloney_draws" target="_blank"><img src="../images/insta .png" alt="Instagram"></a>
+        <a href="https://instagram.com/baloney_draws" target="_blank"><img src="../images/insta.png" alt="Instagram"></a>
       </div>
       <div class="icon">
-      <a href="https://www.redbubble.com/people/baloneydraws/shop" target="_blank"><img src="../images/rb .png" alt="RedBubble"></a>
+      <a href="https://www.redbubble.com/people/baloneydraws/shop" target="_blank"><img src="../images/rb.png" alt="RedBubble"></a>
       </div>
       <div class="icon">
-        <a href="https://youtube.com/channel/UC0iPP2fiOJ7101Lj0SQxcJA" target="_blank"> <img src="../images/Yt .png" alt="youtube"></a>
+        <a href="https://youtube.com/channel/UC0iPP2fiOJ7101Lj0SQxcJA" target="_blank"> <img src="../images/yt.png" alt="youtube"></a>
       </div>
     </div>
   </footer>
