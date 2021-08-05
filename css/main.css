@@ -25,7 +25,7 @@ header nav ul li{
 }
 
 header nav a {
-  color: black;
+  color: white;
   text-decoration: none;
   font-weight: bold;
   font-size: 20px;
@@ -144,12 +144,14 @@ a:hover {
   background: lavender;
 }
 
+#horizontal2,
 #horizontal img{
   width: 400px;
 }
 .random-work{
   padding: 20px 5px;
   background: gray;
+  text-align: center;
 }
 .random-work img{
   padding:5px;

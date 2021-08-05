@@ -20,7 +20,7 @@
   }
 
   header nav a {
-    color: black;
+    color: white;
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;

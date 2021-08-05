@@ -20,7 +20,7 @@
   }
 
   header nav a {
-    color: black;
+    color: white;
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;
@@ -32,40 +32,7 @@
   a:hover {
     color: rgb(176,125,177);
     transition: .3s;
-  }
-  .top-section {
-    background-image: url("../images/header.jpeg");
-    background-attachment: fixed;
-    background-repeat: repeat;
-    text-align: right;
-    padding: 100px 5px;
-  }
 
-  .top-section img {
-    width: 150px;
-    opacity: 90%;
-  }
-  .socialmedia {
-    background:#333;
-    text-align: center;
-  }
-
-  .icon img{
-    width: 50px;
-    margin: 10px;
-    padding: 5px;
-  }
-
-  .icon {
-    display: inline-block;
-  }
-  .icon a{
-    transition: .3s;
-  }
-  .icon a :hover{
-    background: gray;
-    border-radius: 10px;
-    transition:.3s;
   }
   .default h1{
     font-family: monospace;
@@ -81,8 +48,8 @@
 
   .default{
     text-align: center;
-    margin: 50px;
-    padding: 5px;
+    margin: 0px;
+    padding: 47px;
   }
 
   footer {
@@ -116,8 +83,6 @@
 					}
 				?>
 				</ul>
-
-				<p><strong><a href="../commission.html" onClick="history.go(-1)">Back to form</a></strong></p>
 			</div>
 <!--footer-->
   <footer>
